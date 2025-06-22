@@ -1,3 +1,5 @@
+'use client';
+
 import dynamic from 'next/dynamic';
 import TitleSlide from "@/components/slides/TitleSlide";
 import ContentSlide from "@/components/slides/ContentSlide";
