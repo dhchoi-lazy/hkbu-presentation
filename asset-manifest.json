@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hkbu-presentation/static/css/main.43dd46fa.css",
-    "main.js": "/hkbu-presentation/static/js/main.b482560f.js",
+    "main.js": "/hkbu-presentation/static/js/main.cc162c82.js",
     "static/media/ajd2.png": "/hkbu-presentation/static/media/ajd2.fbab8588db57b931bb50.png",
     "static/media/introduction1.png": "/hkbu-presentation/static/media/introduction1.28efc558d2d97ee01c4d.png",
     "static/media/introduction3.png": "/hkbu-presentation/static/media/introduction3.aabc91a2d5494c8bfc96.png",
@@ -63,10 +63,10 @@
     "static/media/tcs.svg": "/hkbu-presentation/static/media/tcs.a931ca72358939f534594a4e5336f708.svg",
     "index.html": "/hkbu-presentation/index.html",
     "main.43dd46fa.css.map": "/hkbu-presentation/static/css/main.43dd46fa.css.map",
-    "main.b482560f.js.map": "/hkbu-presentation/static/js/main.b482560f.js.map"
+    "main.cc162c82.js.map": "/hkbu-presentation/static/js/main.cc162c82.js.map"
   },
   "entrypoints": [
     "static/css/main.43dd46fa.css",
-    "static/js/main.b482560f.js"
+    "static/js/main.cc162c82.js"
   ]
 }
