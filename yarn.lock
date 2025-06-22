@@ -1894,7 +1894,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:^5.0.0":
+"eslint-plugin-react-hooks@npm:^5.0.0, eslint-plugin-react-hooks@npm:^5.2.0":
   version: 5.2.0
   resolution: "eslint-plugin-react-hooks@npm:5.2.0"
   peerDependencies:
@@ -2374,6 +2374,7 @@ __metadata:
     clsx: "npm:^2.1.1"
     eslint: "npm:^9"
     eslint-config-next: "npm:15.3.4"
+    eslint-plugin-react-hooks: "npm:^5.2.0"
     lucide-react: "npm:^0.522.0"
     next: "npm:15.3.4"
     postcss: "npm:^8.5.6"
