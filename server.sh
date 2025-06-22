@@ -45,7 +45,7 @@ start_server() {
     fi
 
     # Start the server in background
-    nohup yarn start > "$LOG_FILE" 2>&1 &
+    nohup PORT=$PORT yarn start > "$LOG_FILE" 2>&1 &
     local pid=$!
     
     echo "$pid" > "$PID_FILE"
