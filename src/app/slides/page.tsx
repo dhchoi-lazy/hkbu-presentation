@@ -1,6 +1,11 @@
-import RevealPresentation from "@/components/RevealPresentation";
+import dynamic from 'next/dynamic';
 import TitleSlide from "@/components/slides/TitleSlide";
 import ContentSlide from "@/components/slides/ContentSlide";
+
+const RevealPresentation = dynamic(() => import('@/components/RevealPresentation'), {
+  ssr: false,
+  loading: () => <div className="flex items-center justify-center h-screen">Loading presentation...</div>
+});
 
 export default function SlidesPage() {
   return (
