@@ -1,11 +1,36 @@
-import type { TitleSlideProps } from '@/types/slides';
+import type { TitleSlideProps } from "@/types/slides";
+import Image from "next/image";
 
-export default function TitleSlide({ title, subtitle, author }: TitleSlideProps) {
+export default function TitleSlide({
+  title,
+  subtitle,
+  author,
+  date,
+}: TitleSlideProps) {
   return (
-    <section>
-      <h1 className="text-4xl font-bold mb-4">{title}</h1>
-      {subtitle && <h2 className="text-2xl text-gray-600 mb-6">{subtitle}</h2>}
-      {author && <p className="text-lg text-gray-500">{author}</p>}
+    <section className="title-slide">
+      {/* Main content container */}
+      <div className="title-content">
+        <h1 className="title-main">{title}</h1>
+        {subtitle && <h2 className="title-subtitle">{subtitle}</h2>}
+      </div>
+
+      {/* Footer */}
+      <div className="title-footer">
+        <div className="footer-logo">
+          <Image
+            src="/hkbu/hkbu-logo.png"
+            alt="HKBU Logo"
+            width={200}
+            height={40}
+            priority
+          />
+        </div>
+        <div className="footer-info">
+          {author && <h2 className="author">{author}</h2>}
+          {date && <h3 className="date">{date}</h3>}
+        </div>
+      </div>
     </section>
   );
 }
